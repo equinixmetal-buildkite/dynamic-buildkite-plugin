@@ -1,4 +1,4 @@
-FROM docker.io/library/golang:1.21 as build-env
+FROM docker.io/library/golang:1.23 as build-env
 LABEL authors="Equinix Metal"
 # using golangci-lint base image as it comes prepackaged with go 1.20
 # it saves installation steps
